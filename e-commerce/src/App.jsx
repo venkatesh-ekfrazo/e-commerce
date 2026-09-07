@@ -15,7 +15,7 @@ import products from "./data/Product.js";
 import "./index.css";
 
 function App() {
-  // Products stock state
+  // Products stock statebhg
   const [productsStock, setProductsStock] = useState(() => {
     const savedStock = localStorage.getItem("productsStock");
 
